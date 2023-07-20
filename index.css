@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif; 
+ }
+ #container{
+   
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+ }
+ /* .hh{
+   width: 100%;
+   background-color: white;
+ } */
+ #welcome{
+    width: 100%;
+    padding-bottom: 200px;
+    padding-top: 200px;
+   
+   text-align: center;
+   background-image: url('./image/main\ 1.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+   color: white;
+    
+    opacity: 0.8;
+    /* filter:blur(5px); */
+    
+    /* background: rgba(76, 175, 80, 0.1); */
+ }
+
+ /* .fire{
+   color: rgba(255, 255, 255, 0.189);
+   background: url(./image/fire.jpg);
+   -webkit-background-clip: text;
+   background-size: contain; 
+   animation: fire 20s linear infinite ;
+   text-decoration: none;
+   color:black;
+   border: 2px solid white;
+   font-size: 30px;
+   background-color: white;
+
+}
+@keyframes fire{
+   0%{
+       background-position: left 0 top 25px;
+   }
+   50%{
+       background-position:  left 100px top -35px;
+   }
+   100%{
+       background-position:  left 250px top 0px;
+   }
+} */
+ .head{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+ }
+ .himage img{
+      height: 600px;
+      width: 600px;
+      margin-left: 400px;
+ }
+ .head h3{
+    font-size: 60px;
+    margin-bottom: 15px;
+    font-family: 'Pacifico', cursive;
+   
+    font-weight: bold;
+    
+ }
+ .head h2{
+    font-size: 40px;
+   margin-top: 35px;
+   margin-bottom: 30px;
+  
+   font-weight: bolder;
+ }
+ .head h1{
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 70px;
+ }
+ .head a{
+    text-decoration: none;
+    color:black;
+    border: 2px solid white;
+    font-size: 30px;
+    background-color: white;
+ }
+ span .bold{
+    font-weight: 800;
+ }
+ #special{
+    position: relative;
+    width: 100%;
+    background-color:white;
+    padding-bottom: 560px;
+    padding-top: 40px;
+    text-align: center;
+ }
+ .special h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: orangered;
+    
+ }
+ .food div{
+    
+        width: 30%;
+        height: 100px;
+        /* margin-left: 90px; */
+        padding: 60px;
+        float: left;
+        margin-left: 25px;
+        /* margin: 10px; */
+    
+ }
+ .food h1{
+    font-size: 37px;
+    font-weight: 200;
+    margin-top: 30px;
+ }
+ .food img{
+   width: 300px;
+   height: 200px;
+   border: 9px solid;
+   border-color: lightgray
+ }
+ #serve{
+   background-image: url('https://i.pinimg.com/originals/20/27/ff/2027ff5c070cf667b9d42a710d653b17.jpg');
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    padding-bottom: 480px;
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    border: 2px solid;
+    /* https://c0.wallpaperflare.com/preview/184/811/591/blur-bread-rolls-counter-cup.jpg */
+   
+    
+
+ }
+ .servecont h3{
+   font-family: 'Pacifico', cursive;
+   font-size: 40px;
+   margin-bottom: 10px;
+ }
+ .item div{
+   width: 10%;
+   height: 100px;
+   margin-left: 130px;
+   padding: 40px;
+   float: left;
+  
+  
+ }
+ .item h2{
+margin-left: 30px;
+ }
+.item p{
+   margin-left: 50px;
+   
+}
+ .item i{
+   width: 300px;
+   height: 300px;
+ 
+ }
+ #specialcont{
+   width: 50%;
+   position: relative;
+   margin-top: 50px;
+   margin-bottom: 80px;
+position: relative;
+   text-align: center;
+   margin-left: 350px;
+
+ }
+ .specialitem h3{
+   font-family: 'Pacifico', cursive;
+   font-size: 40px;
+   margin-bottom: 10px;
+   color: orangered;
+ }
+ #menu{
+   width: 100%;
+   position: relative;
+   text-align: center;
+ }
+ .menuitem h3{
+   font-family: 'Pacifico', cursive;
+   font-size: 40px;
+   margin-bottom: 10px;
+   color: orangered;
+ }
+ button{
+   background-color: orangered;
+   color:white;
+   width: 90px;
+   height: 40px;
+   border-radius: 20%;
+ }
+ .row{
+   width: 100%;
+   height: 700px;
+   margin-top: -80px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  
+}
+.col{
+   width: 300px;
+   height: 400px;
+
+  
+  padding: 10px;
+}
+.row img{
+   width: 350px;
+   height: 300px;
+   border-radius: 50%;
+}
+.row2{
+   width: 100%;
+   height: 700px;
+  margin-top: -200px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+/* #chef{
+   margin-top: -70px;
+
+}
+.cheff{
+   width: 30%;
+   background-color: orange;
+   color: aliceblue;
+   margin-left: 100px;
+   font-size: 30px;
+   
+} */
+/* .img{
+   margin-left: 700px;
+   margin-top: -400px;
+}
+.cheff p h1{
+   color: black;
+   font-size: 30px;
+} */
+#details{
+   text-align: center;
+   
+   color: black;
+   /* background-image: url('https://cdn.w600.comps.canstockphoto.com/wooden-table-with-a-view-of-blurred-pictures_csp35357482.jpg'); */
+   font-weight: bolder;
+   font-size: 20px;
+   background-color: lightblue;
+   margin-bottom: 50px;
+   margin-top: -120px;
+   text-align: center;
+   background-size: cover;
+   background-attachment: fixed;
+   width: 100%;
+   height: 10%;
+   /* margin-left: 300px; */
+   border-radius: 5px solid black;
+}
+.icondiv{
+   margin-top: 5%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: -400px;
+   margin-left: 20px;
+
+}
+.icon{
+   width: 30px;
+   height: 30px;
+   border: 0px solid;
+   /* border-radius: 50%; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 10px;
+   background-color: aliceblue;
+   margin-top: -50px;
+   margin-left: 10px;
+}
+.icon i{
+   font-size: 20px;
+   color: black;
+}
+.icon:hover{
+   background-image: linear-gradient(to right,
+   indigo,violet);
+
+   /* chANGE BACKGROUND COLOR */
+   
+}
+.icon i:hover{
+   color: white;
+}
+
+footer{
+   font-weight: bold;
+   margin-top: -40px;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #ffffff 0%,
+    #faa700 29%,
+    #f7f7f7 67%,
+    #faf6f6 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 250px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+@media(max-width:800px){
+   p{
+       font-size: 3rem;
+       line-height: 2;
+       
+
+   }
+}
